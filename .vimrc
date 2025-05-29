@@ -2,8 +2,8 @@ set nobackup
 set autoindent
 set smartindent
 set expandtab
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set nowrap
 set number
 set relativenumber
@@ -12,3 +12,6 @@ syntax on
 set termguicolors
 colorscheme catppuccin_mocha
 set mouse=a
+set incsearch
+set ignorecase
+set smartcase
