@@ -28,8 +28,7 @@
         "format": "{icon}",
         "format-icons": {
            "empty": "",
-           "default": "",
-           "urgent": ""
+           "default": ""
         }
     },
     "hyprland/window": {

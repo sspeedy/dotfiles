@@ -35,6 +35,9 @@ tooltip {
 #workspaces button.active {
     color: @text;
 }
+#workspaces button.urgent {
+    color: @red;
+}
 
 #submap {
     color: @yellow;
