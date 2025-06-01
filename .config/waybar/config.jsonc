@@ -9,18 +9,8 @@
     "spacing": 15,
     "fixed-center": true,
     "reload_style_on_change": true,
-    "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/window"
-    ],
-    "modules-center": [
-        "hyprland/submap"
-    ],
-    "modules-right": [
-        "tray",
-        "clock",
-        "network",
-        "pulseaudio"
+    "include": [
+        "~/.config/waybar/modules.jsonc"
     ],
 
     "hyprland/workspaces": {
