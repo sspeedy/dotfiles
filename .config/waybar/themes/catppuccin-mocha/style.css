@@ -1,36 +1,19 @@
 @import url("./colors.css");
 
-* {
-    box-shadow: none;
-    text-shadow: none;
-    font-family: JetBrainsMonoNerdFont;
-}
-
 #waybar {
     background: @base;
-    border: 3px solid @surface2;
-    border-radius: 10px;
-    font-size: 20px;
+    border-color: @surface2;
     color: @text;
 }
 
 tooltip {
     background: @base;
-    border: 2px solid @surface2;
-    border-radius: 10px;
+    border-color: @surface2;
+    color: @text;
 }
 
-#pulseaudio {
-    margin-right: 15px;
-}
-
-#workspaces {
-    margin-left: 5px;
-}
 #workspaces button {
     color: @overlay0;
-    font-size: 35px;
-    margin: -1000px -5px;
 }
 #workspaces button.active {
     color: @text;

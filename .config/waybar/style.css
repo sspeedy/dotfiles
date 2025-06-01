@@ -1,23 +1,21 @@
-@import url("./colors.css");
+@import url("./themes/catppuccin-mocha/style.css");
 
 * {
-    box-shadow: none;
-    text-shadow: none;
     font-family: JetBrainsMonoNerdFont;
+    min-width: 0px;
+    min-height: 0px;
 }
 
 #waybar {
-    background: @base;
-    border: 3px solid @surface2;
+    border-width: 2px;
+    border-style: solid;
     border-radius: 10px;
     font-size: 20px;
-    color: @text;
 }
 
 tooltip {
-    background: @base;
-    border: 2px solid @surface2;
-    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #pulseaudio {
@@ -28,17 +26,6 @@ tooltip {
     margin-left: 5px;
 }
 #workspaces button {
-    color: @overlay0;
     font-size: 35px;
-    margin: -1000px -5px;
-}
-#workspaces button.active {
-    color: @text;
-}
-#workspaces button.urgent {
-    color: @red;
-}
-
-#submap {
-    color: @yellow;
+    margin: -10px -5px;
 }
