@@ -56,14 +56,22 @@
     },
     "pulseaudio": {
         "scroll-step": 5,
-        "format": "{volume}% {icon}",
+        "format": "{volume}% {icon}",
+        "format-muted": "muted 󰝟",
         "format-icons": {
-            "headphone": ""
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "states": {
+            "muted": 0
         },
         "on-click": "pavucontrol"
     },
     "battery": {
         "format": "{capacity}% {icon} ",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""],
+        "states": {
+            "warning": 50,
+            "critical": 25
+        }
     }
 }
