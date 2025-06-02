@@ -5,6 +5,7 @@
     ],
     "modules-left": [
         "hyprland/workspaces",
+        "custom/spacer",
         "hyprland/window"
     ],
     "modules-center": [
@@ -12,8 +13,11 @@
     ],
     "modules-right": [
         "tray",
+        "custom/spacer",
         "pulseaudio",
+        "custom/spacer",
         "network",
+        "custom/spacer",
         "clock"
     ]
 }, {
@@ -23,6 +27,7 @@
     ],
     "modules-left": [
         "hyprland/workspaces",
+        "custom/spacer",
         "hyprland/window"
     ],
     "modules-center": [
@@ -30,9 +35,13 @@
     ],
     "modules-right": [
         "tray",
+        "custom/spacer",
         "battery",
+        "custom/spacer",
         "pulseaudio",
+        "custom/spacer",
         "network",
+        "custom/spacer",
         "clock"
     ]
 }]

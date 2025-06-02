@@ -17,15 +17,14 @@
 tooltip {
     background: @base;
     border: 2px solid @surface2;
-    border-radius: 10px;
-}
-
-#clock {
-    margin-right: 15px;
 }
 
 #workspaces {
     margin-left: 5px;
+}
+
+#window {
+    margin: 5px;
 }
 #workspaces button {
     color: @overlay0;
@@ -42,3 +41,18 @@ tooltip {
 #submap {
     color: @yellow;
 }
+
+#custom-spacer {
+    color: @surface2;
+}
+
+#tray,
+#pulseaudio,
+#network {
+    margin: 0px 5px;
+}
+
+#clock {
+    margin: 0px 15px 0px 5px;
+}
+
