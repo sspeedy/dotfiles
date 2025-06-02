@@ -2,8 +2,8 @@ set nobackup
 set autoindent
 set smartindent
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set nowrap
 set number
 set relativenumber

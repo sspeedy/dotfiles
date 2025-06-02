@@ -1,14 +1,8 @@
-{
-    "layer": "top",
-    "position": "top",
-    "height": 40,
-    "margin-top": 10,
-    "margin-right": 10,
-    "margin-bootom": 0,
-    "margin-left": 10,
-    "spacing": 15,
-    "fixed-center": true,
-    "reload_style_on_change": true,
+[{
+    "output": "!eDP-1",
+    "include": [
+        "~/.config/waybar/modules.jsonc"
+    ],
     "modules-left": [
         "hyprland/workspaces",
         "hyprland/window"
@@ -18,64 +12,27 @@
     ],
     "modules-right": [
         "tray",
-        "clock",
+        "pulseaudio",
         "network",
-        "pulseaudio"
+        "clock"
+    ]
+}, {
+    "output": "eDP-1",
+    "include": [
+        "~/.config/waybar/modules.jsonc"
     ],
-
-    "hyprland/workspaces": {
-        "all-outputs": false,
-        "format": "{icon}",
-        "format-icons": {
-           "empty": "",
-           "default": ""
-        }
-    },
-    "hyprland/window": {
-        "format": "{class}",
-        "separate-outputs": false
-        // "icon": true,
-        // "icon-size": 24
-    },
-    "tray": {
-        "icon-size": 25,
-        "spacing": 15
-    },
-    "clock": {
-        "timezones": [
-            "Europe/Dublin",
-            "Europe/Amsterdam",
-            "US/Eastern",
-            "Australia/Sydney"
-        ],
-        "format": "{:%I:%M %p}",
-        "tooltip-format": "{:%I:%M %p %Z}",
-        "actions": {
-            "on-scroll-up": "tz_up",
-            "on-scroll-down": "tz_down"
-        }
-    },
-    "network": {
-        "interface-ethernet": "enp1s*",
-        "interface-wifi": "wlan0",
-        "format-ethernet": "eth ",
-        "format-wifi": "{essid} ({signalStrength}%)  ",
-        "tooltip-format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-        "tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr}  ",
-        "format-linked": "(No IP) ",
-        "format-disconnected": "Disconnected ⚠"
-    },
-    "pulseaudio": {
-        "scroll-step": 5,
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": " "
-        },
-        "on-click": "pavucontrol"
-    }
-}
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "hyprland/submap"
+    ],
+    "modules-right": [
+        "tray",
+        "battery",
+        "pulseaudio",
+        "network",
+        "clock"
+    ]
+}]
