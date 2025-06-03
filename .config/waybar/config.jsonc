@@ -27,8 +27,6 @@
     ],
     "modules-left": [
         "hyprland/workspaces",
-        "custom/spacer",
-        "hyprland/window"
     ],
     "modules-center": [
         "hyprland/submap"
