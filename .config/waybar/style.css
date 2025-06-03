@@ -51,14 +51,32 @@ tooltip {
     margin: 5px 1px;
 }
 
+#pulseaudio {
+    color: @red;
+}
+#pulseaudio.high {
+    color: @peach;
+}
+#pulseaudio.medium {
+    color: @green
+}
+#pulseaudio.low {
+    color: @teal;
+}
 #pulseaudio.muted {
     color: @surface2;
 }
 
-#bettery.warning {
+#battery {
+    color: @teal;
+}
+#battery.high {
+    color: @green;
+}
+#battery.medium {
     color: @yellow;
 }
-#bettery.critical {
+#battery.low {
     color: @red;
 }
 
