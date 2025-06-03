@@ -52,13 +52,15 @@
         "tooltip-format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr}  ",
         "format-linked": "(No IP) ",
-        "format-disconnected": "Disconnected ⚠"
+        "format-disconnected": "Disconnected ⚠",
+        "on-click": "kitty nmtui"
     },
     "pulseaudio": {
         "scroll-step": 5,
         "format": "{volume}% {icon}",
         "format-muted": "muted 󰝟",
         "format-icons": {
+            "headset": "",
             "default": ["󰕿", "󰖀", "󰕾"]
         },
         "states": {
