@@ -28,6 +28,12 @@ tooltip {
     font-size: 35px;
     margin: -1000px -5px;
 }
+#workspaces button:hover {
+    box-shadow: none;
+    text-shadow: none;
+    background: none;
+    border: none;
+}
 #workspaces button.active {
     color: @text;
 }
