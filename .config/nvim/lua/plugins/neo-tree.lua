@@ -9,6 +9,6 @@ return {
   },
   lazy = false, -- neo-tree will lazily load itself
   config = function()
-    vim.keymap.set("n", "<leader>e", ":Neotree toggle reveal filesystem float<CR>")
+    vim.keymap.set("n", "<leader>e", ":Neotree toggle reveal filesystem left<CR>")
   end
 }
