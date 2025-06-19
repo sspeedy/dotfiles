@@ -10,7 +10,8 @@
     "reload_style_on_change": true,
 
     "custom/spacer": {
-        "format": "|"
+        "format": " "
+        //"format": "|"
     },
     "hyprland/workspaces": {
         "all-outputs": false,
