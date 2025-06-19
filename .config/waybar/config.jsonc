@@ -20,7 +20,8 @@
         "custom/spacer",
         "clock"
     ]
-}, {
+},
+{
     "output": "HDMI-A-1",
     "include": [
         "~/.config/waybar/modules.jsonc"
@@ -34,7 +35,8 @@
         "custom/spacer",
         "hyprland/workspaces"
     ]
-}, {
+},
+{
     "output": "eDP-1",
     "include": [
         "~/.config/waybar/modules.jsonc"
