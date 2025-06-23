@@ -13,6 +13,9 @@ return {
 			contrast = "hard",
 			din_inactive = true,
 		},
+    init = function ()
+      vim.cmd.colorscheme("gruvbox")
+    end
 	},
 	{
 		"sainnhe/gruvbox-material",
