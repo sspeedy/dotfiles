@@ -1,29 +1,29 @@
 return {
-	{
-		"catppuccin/nvim",
-		lazy = false,
-		priority = 1000,
-		name = "catppuccin",
-	},
-	{
-		"ellisonleao/gruvbox.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {
-			contrast = "hard",
-			din_inactive = true,
-		},
-    init = function ()
-      vim.cmd.colorscheme("gruvbox")
-    end
-	},
-	{
-		"sainnhe/gruvbox-material",
-		lazy = false,
-		priority = 1000,
-		opts = {
-			contrast = "hard",
-			din_inactive = true,
-		},
-	},
+  {
+    "ellisonleao/gruvbox.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("gruvbox").setup({
+        contrast = "hard",
+      })
+      -- vim.cmd("colorscheme gruvbox")
+    end,
+  },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("catppuccin").setup({
+        flavour = "auto",
+        background = {
+          light = "latte",
+          dark = "mocha",
+        },
+      })
+      vim.cmd("colorscheme catppuccin")
+    end,
+  },
 }
