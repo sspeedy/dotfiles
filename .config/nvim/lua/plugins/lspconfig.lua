@@ -1,6 +1,7 @@
 return {
-  "neovim/nvim-lspconfig",
-  init = function()
-    vim.lsp.enable("lua_ls")
-  end,
+	"neovim/nvim-lspconfig",
+	event = "BufEnter",
+	config = function()
+		vim.lsp.enable("lua_ls")
+	end,
 }
