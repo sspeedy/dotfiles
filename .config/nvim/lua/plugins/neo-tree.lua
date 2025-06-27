@@ -22,11 +22,6 @@ return {
 				"markdown",
 				"markdown_inline",
 			},
-			filesystem = {
-				filtered_items = {
-					hide_dotfiles = false,
-				},
-			},
 		})
 	end,
 }
