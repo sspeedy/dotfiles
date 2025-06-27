@@ -23,7 +23,7 @@
         }
     },
     "hyprland/window": {
-        "format": "{class}",
+        "format": "{}",
         "separate-outputs": false
         // "icon": true,
         // "icon-size": 24
