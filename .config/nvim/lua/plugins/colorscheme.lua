@@ -6,7 +6,7 @@ return {
 			require("gruvbox").setup({
 				contrast = "hard",
 			})
-			-- vim.cmd("colorscheme gruvbox")
+			--vim.cmd("colorscheme gruvbox")
 		end,
 	},
 	{
@@ -21,7 +21,15 @@ return {
 					dark = "mocha",
 				},
 			})
-			vim.cmd("colorscheme catppuccin")
+			--vim.cmd("colorscheme catppuccin")
+		end,
+	},
+	{
+		"rose-pine/neovim",
+		name = "rose-pine",
+    priority = 1000,
+		config = function()
+			vim.cmd("colorscheme rose-pine")
 		end,
 	},
 }
