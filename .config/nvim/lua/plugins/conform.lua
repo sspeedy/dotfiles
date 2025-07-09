@@ -5,7 +5,9 @@ return {
 		{
 			"<leader>p",
 			function()
-				require("conform").format({ async = true })
+				require("conform").format({
+					async = true,
+				})
 			end,
 			desc = "Format buffer",
 		},

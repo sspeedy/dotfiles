@@ -1,6 +1,7 @@
 vim.o.autoindent = true
 vim.o.expandtab = true
 vim.o.shiftround = true
+vim.o.autoread = true
 vim.o.shiftwidth = 2
 vim.o.smarttab = true
 vim.o.tabstop = 2
@@ -14,7 +15,21 @@ vim.o.linebreak = true
 vim.o.wrap = false
 
 vim.o.cursorline = true
+vim.o.colorcolumn = "80"
 vim.o.number = true
 vim.o.relativenumber = true
+vim.o.autoread = true
 vim.o.mouse = "a"
 vim.o.background = "dark"
+vim.o.autoread = true
+
+vim.diagnostic.config({
+	signs = {
+		text = {
+			[vim.diagnostic.severity.ERROR] = "",
+			[vim.diagnostic.severity.WARN] = "",
+			[vim.diagnostic.severity.INFO] = "",
+			[vim.diagnostic.severity.HINT] = "󰌵",
+		},
+	},
+})
