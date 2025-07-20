@@ -16,6 +16,10 @@ return {
 		formatters_by_ft = {
 			lua = { "stylua" },
 			typst = { "typstyle" },
+			html = { "prettier" },
+			css = { "prettier" },
+			javascript = { "prettier" },
+			c = { "clang-format" },
 		},
 		default_format_opts = {
 			lsp_format = "fallback",
