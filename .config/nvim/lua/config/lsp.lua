@@ -1,6 +1,7 @@
 vim.lsp.enable({
 	"lua_ls",
   "gdscript",
+  "clangd",
 })
 
 vim.diagnostic.config({
