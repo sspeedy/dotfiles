@@ -2,6 +2,7 @@ return {
 	"saghen/blink.cmp",
 	dependencies = { "rafamadriz/friendly-snippets" },
 	version = "1.*",
+  event = "InsertEnter",
 	opts = {
 		-- 'super-tab' for mappings similar to vscode (tab to accept)
 		-- 'enter' for enter to accept

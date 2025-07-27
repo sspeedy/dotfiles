@@ -8,4 +8,5 @@ return {
 		{ "<leader>fb", "<cmd>Telescope buffers<CR>", desc = "Telescope buffers" },
 		{ "<leader>fh", "<cmd>Telescope help_tags<CR>", desc = "Telescope help tags" },
 	},
+  opts = {},
 }
