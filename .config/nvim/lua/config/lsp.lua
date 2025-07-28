@@ -1,3 +1,5 @@
+vim.o.signcolumn = "yes"
+
 vim.lsp.enable({
 	"lua_ls",
   "gdscript",
