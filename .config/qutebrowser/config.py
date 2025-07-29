@@ -2,6 +2,10 @@
 ##   qute://help/configuring.html
 ##   qute://help/settings.html
 
+import catppuccin
+# last argument (optional, default is False): enable the plain look for the menu rows
+catppuccin.setup(c, 'mocha', True)
+
 config.load_autoconfig(True)
 
 c.auto_save.session = True
