@@ -37,7 +37,7 @@ c.fonts.web.family.standard = 'MapleMono NF CN'
 c.hints.chars = 'asdfghjkl'
 c.hints.uppercase = True
 
-c.statusbar.show = 'never'
+c.statusbar.show = 'in-mode'
 
 c.tabs.position = 'right'
 
