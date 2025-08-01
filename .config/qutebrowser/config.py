@@ -39,11 +39,11 @@ c.hints.uppercase = True
 
 c.statusbar.show = 'in-mode'
 
-c.tabs.position = 'right'
+c.tabs.position = 'left'
 
 c.tabs.show = 'multiple'
 
-c.zoom.default = '125%'
+c.zoom.default = '150%'
 
 ## Bindings for normal mode
 # config.bind("'", 'mode-enter jump_mark')
