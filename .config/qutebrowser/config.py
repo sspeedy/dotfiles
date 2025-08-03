@@ -16,7 +16,7 @@ c.colors.webpage.preferred_color_scheme = 'dark'
 
 c.confirm_quit = ['multiple-tabs', 'downloads']
 
-c.downloads.location.directory = "~/downloads/"
+c.downloads.location.directory = "~/Downloads/"
 c.downloads.location.prompt = True
 c.downloads.location.remember = True
 
