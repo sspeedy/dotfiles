@@ -11,6 +11,7 @@ settings:
     global: true
     growagardenwiki.com: false
     sudoku.coach: false
+    tetr.io: false
     www.delftstack.com: false
     www.youtube.com: false
   colors.webpage.preferred_color_scheme:
