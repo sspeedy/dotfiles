@@ -12,6 +12,7 @@ settings:
     growagardenwiki.com: false
     sudoku.coach: false
     tetr.io: false
+    wiki.archlinux.org: false
     www.delftstack.com: false
     www.youtube.com: false
   colors.webpage.preferred_color_scheme:
