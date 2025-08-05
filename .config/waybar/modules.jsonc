@@ -66,10 +66,9 @@
             "default": ["󰕿", "󰖀", "󰕾"]
         },
         "states": {
-            "high": 150,
-            "medium": 100,
-            "low": 50,
-            "muted": 0
+            "high": 75,
+            "medium": 50,
+            "low": 25
         },
         "on-click": "pavucontrol"
     },
