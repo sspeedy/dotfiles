@@ -18,3 +18,5 @@ settings:
     www.youtube.com: false
   colors.webpage.preferred_color_scheme:
     global: dark
+  content.javascript.clipboard:
+    https://github.com: access-paste
