@@ -7,6 +7,7 @@
 config_version: 2
 settings:
   colors.webpage.darkmode.enabled:
+    docs.kdenlive.org: false
     easings.net: false
     github.com: false
     global: true
