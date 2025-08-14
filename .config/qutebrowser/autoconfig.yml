@@ -12,6 +12,7 @@ settings:
     github.com: false
     global: true
     growagardenwiki.com: false
+    history: true
     sudoku.coach: false
     tetr.io: false
     wiki.archlinux.org: false
