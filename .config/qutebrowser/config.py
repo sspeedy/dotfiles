@@ -13,8 +13,13 @@ c.auto_save.session = True
 c.changelog_after_upgrade = 'major'
 
 c.colors.webpage.preferred_color_scheme = 'dark'
+c.colors.webpage.darkmode.enabled = False
 
 c.confirm_quit = ['multiple-tabs', 'downloads']
+
+c.content.blocking.method = 'both'
+
+c.content.webgl = True
 
 c.downloads.location.directory = "~/Downloads/"
 c.downloads.location.prompt = True
