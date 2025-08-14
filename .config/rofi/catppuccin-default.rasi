@@ -30,7 +30,7 @@
 
 }
 element {
-    padding: 1px ;
+    padding: 5px ;
     cursor:  pointer;
     spacing: 5px ;
     border:  0;
@@ -86,7 +86,8 @@ element-icon {
 window {
     padding:          5;
     background-color: @background;
-    border:           1;
+    border:           2;
+    border-radius:    10;
 }
 mainbox {
     padding: 0;
