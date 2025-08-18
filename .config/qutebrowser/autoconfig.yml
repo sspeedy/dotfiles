@@ -13,6 +13,7 @@ settings:
     global: true
     growagardenwiki.com: false
     history: true
+    mpd.readthedocs.io: true
     sudoku.coach: false
     tetr.io: false
     wiki.archlinux.org: false
@@ -22,3 +23,5 @@ settings:
     global: dark
   content.javascript.clipboard:
     https://github.com: access-paste
+  content.media.audio_capture:
+    https://teams.microsoft.com: true
