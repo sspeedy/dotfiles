@@ -40,11 +40,12 @@
             "Australia/Sydney"
         ],
         "format": "{:%I:%M %p}",
-        "tooltip-format": "{:%I:%M %p %Z}",
+        "tooltip-format": "{tz_list}",
         "actions": {
             "on-scroll-up": "tz_up",
             "on-scroll-down": "tz_down"
         }
+        //"tooltip-format": "{:%I:%M %p %Z}",
     },
     "network": {
         "interface-ethernet": "enp1s*",
