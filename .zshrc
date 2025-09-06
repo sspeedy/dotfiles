@@ -124,3 +124,5 @@ function y() {
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+export CPM_SOURCE_CACHE=$HOME/.cache/CPM
