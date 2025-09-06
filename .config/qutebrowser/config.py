@@ -32,22 +32,21 @@ c.fonts.hints = 'bold default_size default_family'
 config.bind(',d', 'set -u {url:host} colors.webpage.darkmode.enabled true')
 config.bind(',D', 'set -u {url:host} colors.webpage.darkmode.enabled false')
 
-c.fonts.web.family.cursive = 'MapleMono NF CN'
+# c.fonts.web.family.cursive = 'MapleMono NF CN'
 # c.fonts.web.family.fantasy = ''
-c.fonts.web.family.fixed = 'MapleMono NF CN'
-c.fonts.web.family.sans_serif = 'MapleMono NF CN'
-c.fonts.web.family.serif = 'MapleMono NF CN'
-c.fonts.web.family.standard = 'MapleMono NF CN'
+# c.fonts.web.family.fixed = 'MapleMono NF CN'
+# c.fonts.web.family.sans_serif = 'MapleMono NF CN'
+# c.fonts.web.family.serif = 'MapleMono NF CN'
+# c.fonts.web.family.standard = 'MapleMono NF CN'
 
 c.hints.chars = 'asdfghjkl'
 c.hints.uppercase = True
 
 c.statusbar.show = 'in-mode'
 
-c.tabs.position = 'left'
+c.tabs.position = 'top'
 
 c.tabs.show = 'multiple'
-
 c.zoom.default = '150%'
 
 ## Bindings for normal mode

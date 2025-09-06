@@ -25,6 +25,7 @@ settings:
     https://www.speedtest.net: false
   content.javascript.clipboard:
     https://github.com: access-paste
+    https://wplace.wiki: access-paste
   content.media.audio_capture:
     https://teams.microsoft.com: true
   content.notifications.enabled:
