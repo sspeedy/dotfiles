@@ -24,12 +24,16 @@ settings:
   content.geolocation:
     https://www.speedtest.net: false
   content.javascript.clipboard:
+    https://catppuccin.com: access-paste
+    https://designer.hyperate.io: access-paste
     https://github.com: access-paste
     https://wplace.wiki: access-paste
   content.media.audio_capture:
     https://teams.microsoft.com: true
+    https://tuner-online.com: true
   content.notifications.enabled:
     https://mobi.easeus.com: false
+    https://www.obsbot.com: false
     https://www.tenorshare.com: false
     https://www.wootechy.com: false
   content.register_protocol_handler:
