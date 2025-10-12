@@ -1,6 +1,6 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	event = "BufEnter",
-	branch = "master",
+	branch = "main",
 	build = ":TSUpdate",
 }

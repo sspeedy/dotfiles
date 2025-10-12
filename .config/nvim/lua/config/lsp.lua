@@ -4,6 +4,7 @@ vim.lsp.enable({
 	"lua_ls",
   "gdscript",
   "clangd",
+  "tinymist",
 })
 
 vim.diagnostic.config({
