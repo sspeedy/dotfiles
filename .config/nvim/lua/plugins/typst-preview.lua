@@ -1,7 +1,6 @@
 return {
 	"chomosuke/typst-preview.nvim",
 	ft = "typst",
-  lazy = false,
   keys = {
     "<leader>t",
     "<Cmd>:TypstPreviewToggle<CR>",
