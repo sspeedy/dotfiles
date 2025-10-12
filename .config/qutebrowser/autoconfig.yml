@@ -16,6 +16,7 @@ settings:
     mpd.readthedocs.io: true
     sudoku.coach: false
     tetr.io: false
+    typst.app: true
     wiki.archlinux.org: false
     www.delftstack.com: false
     www.youtube.com: false
