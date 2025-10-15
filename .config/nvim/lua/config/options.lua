@@ -15,7 +15,6 @@ vim.o.linebreak = true
 vim.o.wrap = false
 
 vim.o.cursorline = true
-vim.o.colorcolumn = "80"
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.autoread = true

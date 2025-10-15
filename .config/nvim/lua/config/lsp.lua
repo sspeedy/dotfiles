@@ -5,6 +5,8 @@ vim.lsp.enable({
   "gdscript",
   "clangd",
   "tinymist",
+  "html",
+  "cssls",
 })
 
 vim.diagnostic.config({
