@@ -31,6 +31,10 @@ zinit light-mode for \
 ### Zinit plugins
 zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
+zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+zinit ice depth=1
+zinit light jeffreytse/zsh-vi-mode
 ### End of Zinit plugins
 
 autoload -Uz compinit promptinit
