@@ -45,7 +45,9 @@ promptinit
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # HISTORY
-HISTFILE=./.zsh_history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=$HISTSIZE
 setopt EXTENDED_HISTORY          # Write the history file in the ':start:elapsed;command' format.
 setopt HIST_EXPIRE_DUPS_FIRST    # Expire a duplicate event first when trimming history.
 setopt HIST_FIND_NO_DUPS         # Do not display a previously found event.
@@ -58,3 +60,13 @@ setopt SHARE_HISTORY             # Share history between all sessions.
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 # END HISTORY
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+alias h="hyprland"
