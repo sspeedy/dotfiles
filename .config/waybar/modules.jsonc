@@ -56,7 +56,7 @@
         "tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr}  ",
         "format-linked": "(No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "on-click": "kitty nmtui"
+        "on-click": "ghostty -e nmtui"
     },
     "pulseaudio": {
         "scroll-step": 5,
