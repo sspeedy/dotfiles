@@ -21,6 +21,7 @@
         "clock"
     ]
 },
+/*
 {
     "output": "HDMI-A-1",
     "include": [
@@ -36,6 +37,7 @@
         "hyprland/workspaces"
     ]
 },
+*/
 {
     "output": "eDP-1",
     "include": [
