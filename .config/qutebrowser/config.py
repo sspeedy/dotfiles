@@ -40,7 +40,7 @@ config.bind(',D', 'set -u {url:host} colors.webpage.darkmode.enabled false')
 # c.fonts.web.family.standard = 'MapleMono NF CN'
 
 c.hints.chars = 'asdfghjkl'
-c.hints.uppercase = True
+c.hints.uppercase = False
 
 c.statusbar.show = 'in-mode'
 
