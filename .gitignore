@@ -2,3 +2,4 @@ lazy-lock.json
 autoconfig.yml
 quickmarks
 qsettings
+.config/mpd/database
