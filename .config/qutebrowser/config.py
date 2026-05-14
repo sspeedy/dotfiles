@@ -25,7 +25,7 @@ c.downloads.location.directory = "~/Downloads/"
 c.downloads.location.prompt = True
 c.downloads.location.remember = True
 
-c.fonts.default_family = ["MapleMono NF CN"]
+c.fonts.default_family = ["MapleMononl NF CN"]
 c.fonts.default_size = '20pt'
 c.fonts.hints = 'bold default_size default_family'
 
