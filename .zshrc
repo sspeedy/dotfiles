@@ -69,4 +69,4 @@ function y() {
   rm -f -- "$tmp"
 }
 
-alias h="hyprland"
+alias h="start-hyprland"
