@@ -70,3 +70,5 @@ function y() {
 }
 
 alias h="start-hyprland"
+export PATH=/home/speedy/.local/bin:$PATH
+export PATH=/home/speedy/.local/bin:$PATH
