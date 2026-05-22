@@ -210,9 +210,14 @@ hl.config({
         sensitivity = -0.5, -- -1.0 - 1.0, 0 means no modification.
 
         touchpad = {
-            natural_scroll = false,
+            natural_scroll = true,
         },
     },
+})
+
+hl.device({
+  name = "synps/2-synaptics-touchpad",
+  sensitivity = 0.7,
 })
 
 hl.gesture({
