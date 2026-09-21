@@ -17,7 +17,7 @@
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
 hl.monitor({
     output = "DP-2",
-    mode = "1920x1080@144",
+    mode = "1920x1080@165",
     position = "1920x0",
     scale = "1",
 })
@@ -46,8 +46,9 @@ hl.on("hyprland.start", function ()
   hl.exec_cmd("awww-daemon")
   hl.exec_cmd("dbus-update-activation-environment --systemd HYPRLAND_INSTANCE_SIGNATURE")
   hl.exec_cmd("syncthing serve --no-browser")
-  hl.exec_cmd("hyprsunset")
+  hl.exec_cmd("kdeconnect-indicator")
   hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
+  hl.exec_cmd("corectrl")
 end)
 
 
@@ -102,7 +103,7 @@ hl.config({
         resize_on_border = false,
         -- Please see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before you turn this on
         allow_tearing = true,
-        layout = "scrolling",
+        layout = "master",
     },
 
     decoration = {
@@ -124,7 +125,7 @@ hl.config({
     },
 
     animations = {
-        enabled = true,
+        enabled = false,
     },
 })
 
@@ -254,7 +255,7 @@ hl.bind(mainMod .. " + k", hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + j", hl.dsp.focus({ direction = "down" }))
 hl.bind(mainMod .. " + tab", hl.dsp.focus({ monitor = "+1" }))
 
-hl.bind(mainMod .. " + a", hl.dsp.layout("consume_or_expel prev"))
+-- hl.bind(mainMod .. " + a", hl.dsp.layout("consume_or_expel prev"))
 
 hl.bind(mainMod .. "+ SHIFT + h", hl.dsp.window.swap({ direction = "left" }))
 hl.bind(mainMod .. "+ SHIFT + l", hl.dsp.window.swap({ direction = "right" }))
