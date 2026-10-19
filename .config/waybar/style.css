@@ -7,16 +7,16 @@
 }
 
 #waybar {
-    background: @base;
-    border: 3px solid @surface2;
+    background: #1F1F28;
+    border: 3px solid #54546D;
     border-radius: 10px;
     font-size: 20px;
-    color: @text;
+    color: #DCD7BA;
 }
 
 tooltip {
-    background: @base;
-    border: 2px solid @surface2;
+    background: #1F1F28;
+    border: 2px solid #54546D;
 }
 
 #window {
@@ -24,18 +24,18 @@ tooltip {
 }
 
 #workspaces button {
-    color: @overlay0;
+    color: #C8C093;
     font-size: 35px;
-    margin: -1000px -5px;
+    margin: -1000px -10px;
 }
 #workspaces button.empty {
-    color: @overlay0;
-}
-#workspaces button.visible {
-    color: @text;
+    color: #54546D;
 }
 #workspaces button.active {
-    color: @green;
+    color: #C8C093;
+}
+#workspaces button.focused {
+    color: #98BB6C;
 }
 #workspaces button.urgent {
     color: @red;
@@ -52,7 +52,7 @@ tooltip {
 }
 
 #custom-spacer {
-    color: @surface2;
+    color: #54546D;
 }
 
 #tray,
@@ -70,20 +70,20 @@ tooltip {
     color: @peach;
 }
 #pulseaudio.medium {
-    color: @green
+    color: #98BB6C
 }
 #pulseaudio.low {
     color: @teal;
 }
 #pulseaudio.muted {
-    color: @surface2;
+    color: #54546D;
 }
 
 #battery {
     color: @teal;
 }
 #battery.high {
-    color: @green;
+    color: #98BB6C;
 }
 #battery.medium {
     color: @yellow;
@@ -93,7 +93,7 @@ tooltip {
 }
 
 #network.disconnected {
-    color: @surface2;
+    color: #54546D;
 }
 
 .modules-left > widget:first-child > #workspaces {

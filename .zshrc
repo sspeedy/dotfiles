@@ -70,5 +70,8 @@ function y() {
 }
 
 alias h="start-hyprland"
+alias n="niri-session"
 export PATH=/home/speedy/.local/bin:$PATH
 export PATH=/home/speedy/.local/bin:$PATH
+
+export MANPAGER="nvim +Man!"

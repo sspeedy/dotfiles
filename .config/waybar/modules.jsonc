@@ -28,6 +28,24 @@
         // "icon": true,
         // "icon-size": 24
     },
+    "niri/workspaces": {
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "empty": "",
+            "default": ""
+        },
+        "workspace-taskbar": {
+            "enable": true,
+            "icon-size": 18
+        }
+    },
+    "niri/window": {
+        "format": "{}",
+        "separate-outputs": true
+        // "icon": true,
+        // "icon-size": 24
+    },
     "tray": {
         "icon-size": 20,
         "spacing": 10
