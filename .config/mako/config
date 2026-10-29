@@ -1,0 +1,15 @@
+default-timeout=5000
+
+layer=overlay
+
+width=500
+height=800
+
+font=MapleMonoNFCN 12
+
+background-color=#1F1F28
+text-color=#DCD7BA
+border-color=#54546D
+
+border-size=3
+border-radius=10

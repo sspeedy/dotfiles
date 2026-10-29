@@ -38,7 +38,7 @@ tooltip {
     color: #98BB6C;
 }
 #workspaces button.urgent {
-    color: @red;
+    color: #FF5D62;
 }
 #workspaces button:hover {
     box-shadow: none;
@@ -48,7 +48,7 @@ tooltip {
 }
 
 #submap {
-    color: @yellow;
+    color: #E6C384;
 }
 
 #custom-spacer {
@@ -64,32 +64,32 @@ tooltip {
 }
 
 #pulseaudio {
-    color: @red;
+    color: #FF5D62;
 }
 #pulseaudio.high {
-    color: @peach;
+    color: #FFA066;
 }
 #pulseaudio.medium {
     color: #98BB6C
 }
 #pulseaudio.low {
-    color: @teal;
+    color: #A3D4D5;
 }
 #pulseaudio.muted {
     color: #54546D;
 }
 
 #battery {
-    color: @teal;
+    color: #A3D4D5;
 }
 #battery.high {
     color: #98BB6C;
 }
 #battery.medium {
-    color: @yellow;
+    color: #E6C384;
 }
 #battery.low {
-    color: @red;
+    color: #FF5D62;
 }
 
 #network.disconnected {
